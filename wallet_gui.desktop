@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ultimate CLI Wallet GUI
+Comment=Multi-coin wallet manager with programmable buttons
+Exec=/bin/bash -c "cd %INSTALL_DIR% && ./launch_wallet.sh"
+Icon=wallet
+Terminal=false
+Categories=Finance;Utility;
+Keywords=wallet;crypto;cryptocurrency;bitcoin;blockchain;
+
+# To use this desktop shortcut:
+# 1. Replace %INSTALL_DIR% with the actual installation path
+# 2. Copy to ~/.local/share/applications/ or ~/Desktop/
+# 3. Make executable: chmod +x wallet_gui.desktop
